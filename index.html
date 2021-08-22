@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission by Aswin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="https://formspree.io/f/mrgroroe" method="POST" id="my-form">
+          <div class="fgroup">
+            <label for="name">Name </label>
+            <input type="text" id="name" name = "name" placeholder = "your name"> 
+          </div>
+          
+            <div class="fgroup">
+            <label for="email" >email </label>
+            <input type="email" id="email" placeholder="your email" name = "email">
+          </div>
+            
+            <div class="fgroup">
+            <label for="phone">Phone </label>
+            <input type="Phone" id="phone" placeholder="your mobile number" name = "phone">
+          </div>
+          <button>Submit</button>
+          
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+      
+      
+</body>
+</html>
